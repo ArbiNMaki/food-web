@@ -1,6 +1,8 @@
 import React from "react";
-import Logo from "../img/logo.png";
 import { MdShoppingBasket } from "react-icons/md";
+
+import Logo from "../img/logo.png";
+import Avatar from "../img/avatar.png";
 
 const Header = () => {
   return (
@@ -34,6 +36,12 @@ const Header = () => {
               <p className="text-xs text-white font-semibold">2</p>
             </div>
           </div>
+
+          <img
+            src={Avatar}
+            className="w-10 min-w-[2.5rem] h-10 min-h-[2.5rem] drop-shadow-xl"
+            alt="userProfile"
+          />
         </div>
       </div>
 
