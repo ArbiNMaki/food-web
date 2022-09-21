@@ -39,7 +39,7 @@ const Header = () => {
 
           <img
             src={Avatar}
-            className="w-10 min-w-[2.5rem] h-10 min-h-[2.5rem] drop-shadow-xl"
+            className="w-10 min-w-[2.5rem] h-10 min-h-[2.5rem] drop-shadow-xl cursor-pointer"
             alt="userProfile"
           />
         </div>
